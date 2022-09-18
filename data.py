@@ -1,6 +1,5 @@
 from pyrogram.types import InlineKeyboardButton
 
-
 class Data:
     
 # Start Message
@@ -21,21 +20,8 @@ By @kenapatagdar
          InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴩᴇʀ ", url="https://t.me/kenapatagdar"),
         ],
     ]
-
-# Help Message
-HELP = """
-✨ **Available Commands** ✨
-/about - Tentang Bot ini
-/help - This Message
-/start - Mulai Bot
-/generate - Mulai Generating Session
-/cancel - Membatalkan process
-/restart - Membatalkan process
 """
-
-    # About Message
-    ABOUT = """
-**About This Bot** 
+              **About This Bot** 
 Pyrogram dan telethon string session by @somedstringbot
 Group Support : [support](https://t.me/kenapatagdar)
 Framework : [Pyrogram](docs.pyrogram.org)
