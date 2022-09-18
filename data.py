@@ -12,16 +12,8 @@ class Data:
         ],
     ]
     
-START = """
-Halo {},
+    START = """
 Selamat datang {}
 Bot ini Bekerja Untuk Mendapatkan String Session Via Bot.
 By @kenapatagdar
-
-**About This Bot** 
-Pyrogram dan telethon string session by @somedstringbot
-Group Support : [support](https://t.me/kenapatagdar)
-Framework : [Pyrogram](docs.pyrogram.org)
-Language : [Python](www.python.org)
-Developer : @kenapatagdar
     """
