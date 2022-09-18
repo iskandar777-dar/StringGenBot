@@ -1,16 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 class Data:
-    
-# Start Message
-START = """
-Halo {}
-Selamat datang {}
-Bot ini Bekerja Untuk Mendapatkan String Session Via Bot.
-By @kenapatagdar
-    """
-
-     generate_single_button = [InlineKeyboardButton("🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")]
+    generate_single_button = [InlineKeyboardButton("🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")]
 
     generate_button = [generate_single_button]
 
@@ -20,8 +11,14 @@ By @kenapatagdar
          InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴩᴇʀ ", url="https://t.me/kenapatagdar"),
         ],
     ]
-"""
-              **About This Bot** 
+    
+START = """
+Halo {},
+Selamat datang {}
+Bot ini Bekerja Untuk Mendapatkan String Session Via Bot.
+By @kenapatagdar
+
+**About This Bot** 
 Pyrogram dan telethon string session by @somedstringbot
 Group Support : [support](https://t.me/kenapatagdar)
 Framework : [Pyrogram](docs.pyrogram.org)
