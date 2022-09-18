@@ -18,7 +18,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 chat_info = await bot.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
             try:
-                await msg.reply_photo(photo="https://telegra.ph/file/ba582d379f2586f227d66.png", caption=f"» ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ʏᴏᴜ'ᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ [ᴅᴇᴠɪʟs ʜᴇᴀᴠᴇɴ]({link}) ʏᴇᴛ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛʜᴇɴ ᴊᴏɪɴ [ᴅᴇᴠɪʟs ʜᴇᴀᴠᴇɴ]({link}) ᴀɴᴅ sᴛᴀʀᴛ ᴍᴇ ᴀɢᴀɪɴ !",
+                await msg.reply_photo(photo="https://telegra.ph/file/ba582d379f2586f227d66.png", caption=f"Gabung Group dibawah dulu lalu coba /start lagi!",
                     reply_markup=InlineKeyboardMarkup([
                         [InlineKeyboardButton("🥺 Gabung Group Sini 🥺", url=f"{link}")]
                     ])
