@@ -2,23 +2,43 @@ from pyrogram.types import InlineKeyboardButton
 
 
 class Data:
-    generate_single_button = [InlineKeyboardButton("🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")]
+    
+# Start Message
+START = """
+Halo {}
+Selamat datang {}
+Bot ini Bekerja Untuk Mendapatkan String Session Via Bot.
+By @kenapatagdar
+    """
+
+     generate_single_button = [InlineKeyboardButton("🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")]
 
     generate_button = [generate_single_button]
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("❣️ sᴜᴩᴩᴏʀᴛ ❣️", url="https://t.me/DevilsHeavenMF"),
-         InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url="https://t.me/anonymous_was_bot"),
+        [InlineKeyboardButton(" sᴜᴩᴩᴏʀᴛ ", url="https://t.me/somedsupport"),
+         InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴩᴇʀ ", url="https://t.me/kenapatagdar"),
         ],
     ]
 
-    START = """
-Hᴇʏ {},
+# Help Message
+HELP = """
+✨ **Available Commands** ✨
+/about - Tentang Bot ini
+/help - This Message
+/start - Mulai Bot
+/generate - Mulai Generating Session
+/cancel - Membatalkan process
+/restart - Membatalkan process
+"""
 
-Tʜɪs ɪs {},
-Aɴ ᴏᴩᴇɴ sᴏᴜʀᴄᴇᴅ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
-
-Sᴏᴜʀᴄᴇ : [ɢɪᴛʜᴜʙ](https://github.com/AnonymousR1025/StringGenBot)
-Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](https://t.me/anonymous_was_bot) !
+    # About Message
+    ABOUT = """
+**About This Bot** 
+Pyrogram dan telethon string session by @somedstringbot
+Group Support : [support](https://t.me/kenapatagdar)
+Framework : [Pyrogram](docs.pyrogram.org)
+Language : [Python](www.python.org)
+Developer : @kenapatagdar
     """
