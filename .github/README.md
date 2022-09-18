@@ -1,3 +1,5 @@
+<h1 align="center"> ⭐ 🆂🅾🅼🅴🅳 ⭐ </h1>
+
 <p align="center">
   <img src="https://telegra.ph/file/ba582d379f2586f227d66.png" alt="StringGen">
 </p>
